@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     return "🌱 Agro App funcionando no Render!"
 
-# Exemplo de rota para cálculo
+# Exemplo de rota para cálculo de defensivo
 @app.route('/calculo', methods=['POST'])
 def calculo():
     try:
@@ -27,6 +27,6 @@ def calculo():
         return {"erro": str(e)}
 
 if __name__ == "__main__":
-    # Render exige host 0.0.0.0 e porta vinda da variável PORT
+    # Render exige host 0.0.0.0 e porta da variável PORT
     port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
