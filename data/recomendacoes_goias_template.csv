@@ -1,0 +1,5 @@
+crop,target_yield_t_ha,N_kg_ha,P2O5_kg_ha,K2O_kg_ha,notes
+soja,3.0,60,70,40,Plantio direto, solos de textura média
+milho,8.0,120,90,80,Milho verão, adubação de plantio
+sorgo,6.0,100,60,70,Sorgo granífero, sequeiro
+trigo,3.5,80,80,60,Trigo irrigado, cerrado

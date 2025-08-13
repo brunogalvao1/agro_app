@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <title>Agro App Goiás</title>
+</head>
+<body>
+    <h1>Agro App Goiás</h1>
+
+    <h2>Calagem</h2>
+    <form method="post" action="/calagem">
+        V% atual: <input name="v_atual" type="number" step="0.01"><br>
+        V% desejado: <input name="v_desejado" type="number" step="0.01"><br>
+        CTC: <input name="ctc" type="number" step="0.01"><br>
+        PRNT: <input name="prnt" type="number" step="0.01"><br>
+        <button type="submit">Calcular</button>
+    </form>
+
+    <h2>Adubação</h2>
+    <form method="post" action="/adubacao">
+        Cultura: <input name="cultura"><br>
+        Área (ha): <input name="area" type="number" step="0.01"><br>
+        <button type="submit">Calcular</button>
+    </form>
+
+    <h2>Defensivos</h2>
+    <form method="post" action="/defensivos">
+        Dose por ha: <input name="dose" type="number" step="0.01"><br>
+        Área (ha): <input name="area" type="number" step="0.01"><br>
+        Concentração (%): <input name="concentracao" type="number" step="0.01"><br>
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
