@@ -1,4 +1,4 @@
-# Agro App Goiás
+# Agro App 
 
 Aplicativo de cálculo agronômico para calagem, adubação e defensivos.
 
